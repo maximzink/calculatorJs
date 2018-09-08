@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="back"></div>
+    <div class="calc">
+        <form action="phpCalc.php" method="POST">
+            <input class="disp" type="text"  placeholder="0" readonly>
+        </form>
+        <table>
+            <tr>
+                <td><input colspan="2" class="button2"  type="button" value="Pow"></td>
+                <td><input colspan="2" class="button2" type="button" value="Sqrt"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="1"></td>
+                <td><input class="button" type="button" value="2"></td>
+                <td><input class="button" type="button" value="3"></td>
+                <td><input class="button" type="button" value="+"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="4"></td>
+                <td><input class="button" type="button" value="5"></td>
+                <td><input class="button" type="button" value="6"></td>
+                <td><input class="button" type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="7"></td>
+                <td><input class="button" type="button" value="8"></td>
+                <td><input class="button" type="button" value="9"></td>
+                <td><input class="button" type="button" value="*"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="С"></td>
+                <td><input class="button" type="button" value="."></td>
+                <td><input class="button" type="button" value="0"></td>
+
+                <td><input class="button" type="button" value="/"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><input class="eval" style="width: 218px" type="button" value="="></td>
+            </tr>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
